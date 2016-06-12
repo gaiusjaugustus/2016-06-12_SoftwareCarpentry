@@ -1,0 +1,28 @@
+
+Call:
+pgls(formula = drate_e01000 ~ Fert_verteb, data = compadata, 
+    lambda = "ML")
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-8.2531 -1.4536  0.0017  1.4536  7.1145 
+
+Branch length transformations:
+
+kappa  [Fix]  : 1.000
+lambda [ ML]  : 0.430
+   lower bound : 0.000, p = < 2.22e-16
+   upper bound : 1.000, p = < 2.22e-16
+   95.0% CI   : (0.277, 0.580)
+delta  [Fix]  : 1.000
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept) 21.53817   11.58769  1.8587  0.06368 
+Fert_verteb  0.05875    0.10547  0.5570  0.57777  
+
+Residual standard error: 2.29 on 483 degrees of freedom
+  (118 observations deleted due to missingness)
+Multiple R-squared: 0.000642,	Adjusted R-squared: -0.001427 
+F-statistic: 0.3103 on 1 and 483 DF,  p-value: 0.5778 
+AIC: [1] 5045.805

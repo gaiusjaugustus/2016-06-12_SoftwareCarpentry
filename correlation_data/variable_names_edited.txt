@@ -1,0 +1,5 @@
+ drate_e01000 , LVD
+ drate_e01000 , Fert_insects
+ drate_e01000 , Fert_verteb
+ drate_e01000 , Fert_wind
+ drate_e01000 , Fert_water

@@ -1,0 +1,27 @@
+
+Call:
+pgls(formula = drate_e01000 ~ LVD, data = compadata, lambda = "ML")
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-7.8617 -2.2316 -0.1235  1.8945  8.7312 
+
+Branch length transformations:
+
+kappa  [Fix]  : 1.000
+lambda [ ML]  : 0.905
+   lower bound : 0.000, p = 1.6294e-07
+   upper bound : 1.000, p = 0.089755
+   95.0% CI   : (0.694, NA)
+delta  [Fix]  : 1.000
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)
+(Intercept) 33.61161   39.86446  0.8431   0.4005
+LVD         -0.56443    1.17082 -0.4821   0.6305
+
+Residual standard error: 3.292 on 149 degrees of freedom
+  (452 observations deleted due to missingness)
+Multiple R-squared: 0.001557,	Adjusted R-squared: -0.005144 
+F-statistic: 0.2324 on 1 and 149 DF,  p-value: 0.6305 
+AIC: [1] 1570.019

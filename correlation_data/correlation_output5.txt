@@ -1,0 +1,27 @@
+
+Call:
+pgls(formula = drate_e01000 ~ Fert_water, data = compadata, lambda = "ML")
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-7.3686 -1.4169 -0.0202  1.4354  7.0880 
+
+Branch length transformations:
+
+kappa  [Fix]  : 1.000
+lambda [ ML]  : 0.425
+   lower bound : 0.000, p = 1.4433e-15
+   upper bound : 1.000, p = < 2.22e-16
+   95.0% CI   : (0.269, 0.576)
+delta  [Fix]  : 1.000
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept) 36.26108   17.20170  2.1080  0.03555
+Fert_water  -0.17016    0.14901 -1.1419  0.25406  
+
+Residual standard error: 2.283 on 482 degrees of freedom
+  (119 observations deleted due to missingness)
+Multiple R-squared: 0.002698,	Adjusted R-squared: 0.0006289 
+F-statistic: 1.304 on 1 and 482 DF,  p-value: 0.2541 
+[1] 5034.789

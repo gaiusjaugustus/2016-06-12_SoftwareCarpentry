@@ -1,0 +1,29 @@
+
+Call:
+pgls(formula = drate_e01000 ~ Fert_insects, data = compadata, 
+    lambda = "ML")
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-7.8959 -1.4533 -0.1244  1.4338  8.1632 
+
+Branch length transformations:
+
+kappa  [Fix]  : 1.000
+lambda [ ML]  : 0.431
+   lower bound : 0.000, p = 8.6597e-15
+   upper bound : 1.000, p = < 2.22e-16
+   95.0% CI   : (0.268, 0.585)
+delta  [Fix]  : 1.000
+
+Coefficients:
+              Estimate Std. Error t value  Pr(>|t|)    
+(Intercept)  20.550692  11.421177  1.7993   0.07259   
+Fert_insects  0.258737   0.065404  3.9560 8.765e-05 
+
+
+Residual standard error: 2.256 on 483 degrees of freedom
+  (118 observations deleted due to missingness)
+Multiple R-squared: 0.03138,	Adjusted R-squared: 0.02938 
+F-statistic: 15.65 on 1 and 483 DF,  p-value: 8.765e-05 
+AIC: [1] 5030.65

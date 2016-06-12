@@ -1,0 +1,5 @@
+ drate_e01000 , LVD,0.6305
+ drate_e01000 , Fert_insects,8.765e-05
+ drate_e01000 , Fert_verteb,0.5778
+ drate_e01000 , Fert_wind,6.585e-05
+ drate_e01000 , Fert_water,0.2541
